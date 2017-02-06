@@ -1,0 +1,37 @@
+
+
+@font-face {
+    font-family: 'Univers LT Std from local';
+	src: url('fonts/UniversLTStd.otf#iefix') format('opentype');	
+}
+
+@font-face {
+    font-family: 'Univers LT Std Standalone';
+	src: url('fonts/UniversLTStd.otf#iefix') format('opentype');	
+}
+
+@font-face {
+    font-family: 'Univers LT W02 55 Roman Standalone';
+	src: url('fonts/Univers-LT-Std-55-Roman.ttf') format('truetype');	
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+	src: url('fonts/UniversLTStd.otf') format('opentype');	
+}
+
+@font-face {
+    font-family: 'Univers LT W01 65 Bold Standalone';
+	src: url('fonts/UniversLTStd-Bold.otf#iefix') format('opentype');
+}
+
+@font-face {
+    font-family: 'Univers LT W01 45 Light Standalone';
+	src: url('fonts/UniversLTStd-Light.otf#iefix') format('opentype');
+}
+
+
+
+
+
+

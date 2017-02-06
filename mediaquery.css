@@ -1,0 +1,56 @@
+/* ===========================================
+   Defining media queries
+   =========================================== */
+/* ===========================================
+   Mixin for writing out breakpoint names in
+   an after pseudo element
+   =========================================== */
+/* ===========================================
+   Calling our writing-out function
+   =========================================== */
+
+@media only screen and (min-width: 1em) {
+  body:after {
+    content: "bp-very-small";
+    display: none;
+  }
+   body:before{ content: ""; background:none; /* Semi-transparent yellow */ position: absolute; top: 0; left: 0; right: 0; z-index: 99; } 
+}
+   
+@media only screen and (min-width:480px) {
+  body:after {
+    content: "bp-small";
+    display: none;
+  }
+  body:before{ content: ""; background:none; /* Semi-transparent yellow */ position: absolute; top: 0; left: 0; right: 0; z-index: 99; } 
+}
+
+@media only screen and (min-width:769px) {
+  body:after {
+    content: "bp-medium";
+    display: none;
+  }
+  body:before{ content: ""; background: none; /* Semi-transparent yellow */ position: absolute; top: 0; left: 0; right: 0; z-index: 99; } 
+}
+
+@media only screen and (max-width:700px) 
+	and (orientation: landscape) 
+	and (-webkit-min-device-pixel-ratio: 2){
+  body:after {
+    content: "bp-small";
+    display: none;
+  }
+  body:before{ content: ""; background: none; /* Semi-transparent yellow */ position: absolute; top: 0; left: 0; right: 0; z-index: 99; } 
+}
+
+
+
+@media only screen and (min-width:801px) {
+  body:after {
+    content: "bp-large";
+    display: none;
+  }
+  body:before{ content: ""; background: none; /* Semi-transparent yellow */ position: absolute; top: 0; left: 0; right: 0; z-index: 99; } 
+}
+
+
